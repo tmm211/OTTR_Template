@@ -54,7 +54,7 @@ And make plots too:
 hist_plot <- hist(iris$Sepal.Length)
 ```
 
-<img src="resources/images/02-chapter_of_course_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+![](resources/images/02-chapter_of_course_files/figure-docx/unnamed-chunk-4-1.png)<!-- -->
 
 You can also save these plots to file:
 
@@ -102,7 +102,7 @@ dev.off()
 
 How to include a Google slide. It's simplest to use the `leanbuild` package:
 
-<img src="resources/images/02-chapter_of_course_files/figure-html//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png" title="Major point!! example image" alt="Major point!! example image" style="display: block; margin: auto;" />
+![](resources/images/02-chapter_of_course_files/figure-docx//1YmwKdIy9BeQ3EShgZhvtb3MgR8P6iDX4DfFD65W_gdQ_gcc4fbee202_0_141.png)
 
 But if you have the slide or some other image locally downloaded you can also use html like this:
 
@@ -118,7 +118,11 @@ You can use `knitr::include_url()` like this:
 knitr::include_url("https://www.youtube.com/embed/VOCYL-FNbr0")
 ```
 
-<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="672" height="400px"></iframe>
+```
+## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
+```
+
+<iframe src="https://www.youtube.com/embed/VOCYL-FNbr0" width="100%" height="400px"></iframe>
 
 OR this works:
 
@@ -128,7 +132,7 @@ OR this works:
 
 This works:
 
-<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="672" height="800px"></iframe>
+<iframe src="https://www.messiah.edu/download/downloads/id/921/Microaggressions_in_the_Classroom.pdf" width="100%" height="800px"></iframe>
 
 Or this:
 
@@ -149,7 +153,7 @@ This works:
 knitr::include_url("https://yihui.org")
 ```
 
-<iframe src="https://yihui.org" width="672" height="400px"></iframe>
+<iframe src="https://yihui.org" width="100%" height="400px"></iframe>
 
 OR this:
 
@@ -203,7 +207,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2022-01-26                  
+##  date     2022-01-27                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version    date       lib source                            
@@ -252,8 +256,10 @@ devtools::session_info()
 ##  tibble        3.0.3      2020-07-10 [1] RSPM (R 4.0.2)                    
 ##  usethis       2.1.5.9000 2022-01-26 [1] Github (r-lib/usethis@57b109a)    
 ##  vctrs         0.3.4      2020-08-29 [1] RSPM (R 4.0.2)                    
+##  webshot       0.5.2      2019-11-22 [1] RSPM (R 4.0.3)                    
 ##  withr         2.3.0      2020-09-22 [1] RSPM (R 4.0.2)                    
 ##  xfun          0.26       2022-01-26 [1] Github (yihui/xfun@74c2a66)       
+##  yaml          2.2.1      2020-02-01 [1] RSPM (R 4.0.3)                    
 ## 
 ## [1] /usr/local/lib/R/site-library
 ## [2] /usr/local/lib/R/library
